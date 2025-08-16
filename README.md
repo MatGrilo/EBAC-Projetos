@@ -38,8 +38,12 @@ Projetos feitos durante o curso
 
 ## Como executar o arquivo `.sh`
 
-Pré-requisitos: Ubuntu/Linux com **bash** e **Python 3** instalado.
 
-1. Dê permissão de execução (uma vez):
-   ```bash
-   chmod 744 calculadora.sh
+**O que faz:**  
+Atualiza o índice de pacotes e executa a calculadora em Python.
+
+Script:
+```bash
+#!/bin/bash
+sudo apt update
+python3 /home/grilo/modulo1/python/calculadora1.py
